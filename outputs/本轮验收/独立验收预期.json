@@ -1,0 +1,232 @@
+{
+  "analysis_at": "2026-11-21 10:00:00",
+  "orders": [
+    {
+      "order_id": "N1",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "3",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 11:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "L1",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "4",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 09:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "L1",
+      "line_id": "20",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "B",
+      "ordered_qty": "2",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 09:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "L2",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "5",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 09:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "C1",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "9",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 11:00:00",
+      "line_status": "CANCELLED",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "S1",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "7",
+      "shipped_qty": "7",
+      "promised_ship_at": "2026-11-21 11:00:00",
+      "line_status": "SHIPPED",
+      "actual_ship_at": "2026-11-20 12:00:00"
+    },
+    {
+      "order_id": "E1",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "B",
+      "ordered_qty": "3",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 10:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "P1",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "6",
+      "shipped_qty": "2",
+      "promised_ship_at": "2026-11-21 09:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": "2026-11-20 12:00:00"
+    },
+    {
+      "order_id": "BADDATE",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "3",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-02-30 09:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "MISSING",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "",
+      "ordered_qty": "3",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 11:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "BADQ",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "ordered_qty": "-1",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 11:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    },
+    {
+      "order_id": "W2ORDER",
+      "line_id": "10",
+      "order_created_at": "2026-11-20 08:00:00",
+      "warehouse_id": "W2",
+      "sku_id": "A",
+      "ordered_qty": "4",
+      "shipped_qty": "0",
+      "promised_ship_at": "2026-11-21 11:00:00",
+      "line_status": "ACTIVE",
+      "actual_ship_at": ""
+    }
+  ],
+  "inventory": [
+    {
+      "warehouse_id": "W1",
+      "sku_id": "A",
+      "available_qty": "12",
+      "snapshot_at": "2026-11-21 10:00:00"
+    },
+    {
+      "warehouse_id": "W1",
+      "sku_id": "B",
+      "available_qty": "5",
+      "snapshot_at": "2026-11-21 10:00:00"
+    },
+    {
+      "warehouse_id": "W2",
+      "sku_id": "A",
+      "available_qty": "10",
+      "snapshot_at": "2026-11-21 10:00:00"
+    }
+  ],
+  "expected": {
+    "metrics": {
+      "input_order_count": 11,
+      "input_order_row_count": 12,
+      "valid_order_line_count": 9,
+      "invalid_order_row_count": 3,
+      "overdue_order_count": 3,
+      "overdue_line_count": 4,
+      "stock_gap_group_count": 1,
+      "data_quality_issue_count": 3,
+      "open_exception_count": 8
+    },
+    "overdue_lines": [
+      [
+        "L1",
+        "10"
+      ],
+      [
+        "L1",
+        "20"
+      ],
+      [
+        "L2",
+        "10"
+      ],
+      [
+        "P1",
+        "10"
+      ]
+    ],
+    "quality_orders": [
+      "BADDATE",
+      "MISSING",
+      "BADQ"
+    ],
+    "stock": [
+      [
+        "W1",
+        "A",
+        16,
+        12,
+        4
+      ],
+      [
+        "W1",
+        "B",
+        5,
+        5,
+        0
+      ],
+      [
+        "W2",
+        "A",
+        4,
+        10,
+        0
+      ]
+    ],
+    "filtered_L1": [
+      "10",
+      "20"
+    ]
+  }
+}
