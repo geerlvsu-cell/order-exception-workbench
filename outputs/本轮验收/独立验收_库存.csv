@@ -1,0 +1,4 @@
+﻿warehouse_id,sku_id,available_qty,snapshot_at
+W1,A,12,2026-11-21 10:00:00
+W1,B,5,2026-11-21 10:00:00
+W2,A,10,2026-11-21 10:00:00
